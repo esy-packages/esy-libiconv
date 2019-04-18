@@ -1,0 +1,22 @@
+{
+  "name": "esy-libiconv",
+  "version": "0.0.000",
+  "description": "libiconv packaged for esy",
+  "esy": {
+    "buildsInSource": true,
+    "build": [
+      [
+        "bash",
+        "-c",
+        "#{os == 'windows' ? './configure --prefix=$cur__install --host x86_64-w64-mingw32' : './configure --prefix=$cur__install'}"
+      ],
+      [
+        "make"
+      ],
+      [
+        "make",
+        "install"
+      ]
+    ]
+  }
+}
