@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/prometheansacrifice/esy-packages/_apis/build/status/prometheansacrifice.esy-libiconv?branchName=master)](https://dev.azure.com/prometheansacrifice/esy-packages/_build/latest?definitionId=39&branchName=master)
+
             GNU LIBICONV - character set conversion library
 
 This library provides an iconv() implementation, for use on systems which
