@@ -7,11 +7,11 @@
     "exportedEnv": {
       "CFLAGS": {
         "scope": "global",
-        "val": "-I#{self.install / 'include'} $CFLAGS }"
+        "val": "-I#{self.install / 'include'} $CFLAGS"
       },
       "LDFLAGS": {
         "scope": "global",
-        "val": "-L#{self.lib} -lcharset -liconv $LDFLAGS }"
+        "val": "-L#{self.lib} -lcharset -liconv $LDFLAGS"
       }
     },
     "build": [
